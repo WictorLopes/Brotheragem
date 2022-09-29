@@ -1,13 +1,28 @@
 import React from "react";
-import { Carousel } from "react-responsive-carousel";
+import "bootstrap/dist/css/bootstrap.css";
+import Carousel from "react-bootstrap/Carousel";
 
-// eslint-disable-next-line import/no-anonymous-default-export
-export default () => (
-  <Carousel autoPlay>
-    <div>
-      <img alt=""  src="./imgs/foto1.png" />
-
-      <img alt="" src="./imgs/foto2.png" />
+export default function CarouselFunction() {
+  return (
+    <div style={{display: 'block', width: 700, height: 508, padding: 30}}>
+      <Carousel>
+        <Carousel.Item interval={1500}>
+          <img
+            className="d-block w-100"
+            src={require('./img/foto1.png')}
+            alt=""
+          />
+        </Carousel.Item>
+        <Carousel.Item interval={1500}>
+          <img
+            className="d-block w-100"
+            src={require('./img/foto2.png')}
+            alt=""
+          />
+        </Carousel.Item>
+      </Carousel>
     </div>
-  </Carousel>
-);
+  );
+}
+
+export { CarouselFunction };

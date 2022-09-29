@@ -1,7 +1,7 @@
 import "./App.css";
 import React from "react";
-import { ImageBackground, View } from "react-native";
-import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
+// import { ImageBackground, View } from "react-native";
+import { CarouselFunction } from "./Carousel";
 
 function App() {
   return (
@@ -13,12 +13,7 @@ function App() {
       </header>
       <body className="body">
         <p>Aqui contaremos uma história de 4 amigos</p>
-        <View>
-          <ImageBackground
-            source={require("./imgs/foto1.png")}
-            style={{ width: 400, height: 400 }}
-          ></ImageBackground>
-        </View>
+        <CarouselFunction />
       </body>
     </div>
   );
