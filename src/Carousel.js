@@ -20,7 +20,15 @@ export default function CarouselFunction() {
             alt=""
           />
         </Carousel.Item>
+        <Carousel.Item interval={1500}>
+          <img
+            className="d-block w-100"
+            src={require('./img/foto3.jpeg')}
+            alt=""
+          />
+        </Carousel.Item>
       </Carousel>
+      
     </div>
   );
 }
