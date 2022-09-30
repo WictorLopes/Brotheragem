@@ -1,6 +1,6 @@
 .header{
     display: flex;
-    justify-content: space-evenly;
+    align-items: center;
 }
 .body{
     background-color: #282c34;
@@ -12,4 +12,9 @@
     justify-content: center;
     font-size: calc(10px + 2vmin);
     color: white
+}
+
+.divLinksHeader{
+    display: flex;
+    padding-left: 100px;
 }
