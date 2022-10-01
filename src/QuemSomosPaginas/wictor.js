@@ -1,6 +1,7 @@
 import React from "react";
+import "../App.css";
 
-const Wictor = () => {
+function Wictor(){
   return (
     <div>
       <h1>Página Wictor</h1>

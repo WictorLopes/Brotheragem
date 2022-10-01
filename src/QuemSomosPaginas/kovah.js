@@ -1,6 +1,7 @@
 import React from "react";
+import "../App.css";
 
-const Kovah = () => {
+function Kovah(){
   return (
     <div>
       <h1>Página kovah</h1>
