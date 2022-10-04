@@ -1,17 +1,14 @@
 import React from "react";
 import "../App.css";
 
-function Marcio() {
+function Márcio() {
   return (
     <div>
-      <header className="header">
-      <h1>Página Márcio</h1>
-      </header>
       <body>
-        <img alt="" src="../img/marcio.png" />
+        <h1>Página Márcio</h1>
       </body>
     </div>
   );
 }
 
-export default Marcio;
+export default Márcio;
